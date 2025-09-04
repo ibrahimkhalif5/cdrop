@@ -18,7 +18,7 @@ class AdminUserSeeder extends Seeder
             ['email' => 'admin@gmail.com'], // condition (avoid duplicates)
             [
                 'name' => 'Admin',
-                'email' => 'admin@gmail.com.com',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('admin1234'), // change to a secure password
                 'role' => 'admin', // assuming you have a role column
             ]
