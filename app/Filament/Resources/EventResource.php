@@ -34,7 +34,6 @@ class EventResource extends Resource
                 ->label('Event Name'),
                 TextInput::make('description')
                 ->required()
-                ->rules('regex:/^[a-zA-Z\s]*$/')
                 ->placeholder('Enter event description ')
                 ->label('Event Description'),
                 FileUpload::make('image')
